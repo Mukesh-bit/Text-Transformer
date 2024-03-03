@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Text Transformer</title>
+  </head>
+  <body>
+
+    <main>
+      <header>Text Transformer</header>
+
+      <input type="text" placeholder="Enter the sentence with space (alphanumeric)" value="This is a normal sentence to transformer.">
+
+      
+      <div class="transformer-output" >
+        <label>Lower Case</label>
+        <span id="lowercase"></span>
+      </div>
+
+      <div class="transformer-output" >
+        <label>Upper Case</label>
+        <span id="upercase"></span>
+      </div>
+
+      <div class="transformer-output" >
+        <label>Camel Case</label>
+        <span id="camelcase">
+        </span>
+      </div>
+
+      <div class="transformer-output" >
+        <label>Pascal Case</label>
+        <span id="pascalcase"> </span>
+      </div>
+      <div class="transformer-output" >
+        <label>Snake Case</label>
+        <span id="snakecase"></span>
+      </div>
+
+      <div class="transformer-output" >
+        <label>Kebab Case</label>
+        <span id="kebabcase"></span>
+      </div>
+      <div class="transformer-output" >
+        <label>Trim</label>
+        <span id="trim"></span>
+      </div>
+
+
+
+
+    </main>
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
